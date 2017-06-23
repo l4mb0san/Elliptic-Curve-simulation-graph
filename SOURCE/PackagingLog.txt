@@ -1,0 +1,25 @@
+ant:
+<ant>
+  <mkdir dir="C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_redistribution" />
+  <mkdir dir="C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_testing" />
+</ant>
+mcc -C -o ECC_Graph -W WinMain:ECC_Graph -T link:exe -d C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_testing -v C:\Users\lehuu\Documents\MATLAB\Test.m 
+Compiler version: 5.1 (R2014a)
+Dependency analysis by REQUIREMENTS.
+[Warning: Adding path "C:\Users\lehuu\Documents\MATLAB" to Compiler path
+instance.] 
+Parsing file "C:\Users\lehuu\Documents\MATLAB\Test.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "L:\Software\MathlabR2014\toolbox\compiler\deploy\deployprint.m"
+	(Referenced from: "Compiler Command Line").
+Parsing file "L:\Software\MathlabR2014\toolbox\compiler\deploy\printdlg.m"
+	(Referenced from: "Compiler Command Line").
+Deleting 0 temporary MEX authorization files.
+Generating file "C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_testing\readme.txt".
+Packaging...
+Adding custom icon L:\Software\MathlabR2014\toolbox\compiler\Resources\default_icon.ico to C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_testing\ECC_Graph.exe.
+Attempting to embed the CTF archive into the application C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_testing\ECC_Graph.exe.
+Finished embedding CTF archive. Deleting the external CTF archive.
+Creating the bundle...
+Web based installer created at C:\Users\lehuu\Documents\MATLAB\ECC_Graph\for_redistribution\MyAppInstaller_web.exe.
+Packaging complete.
